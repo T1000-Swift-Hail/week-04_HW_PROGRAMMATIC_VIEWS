@@ -34,4 +34,4 @@
 - Create the applicaiton without a storyboard . Delete the main storyboard.
 
 ### The app should look like this :
-![alt text](https://)
+![alt text](https://github.com/T1000-Swift-Hail/week-04_HW_PROGRAMMATIC_VIEWS/blob/main/Simulator%20Screen%20Shot%20-%20iPod%20touch%20(7th%20generation)%20-%202021-10-25%20at%2011.27.51.png?raw=true)
