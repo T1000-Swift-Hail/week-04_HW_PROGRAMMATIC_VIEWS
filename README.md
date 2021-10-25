@@ -20,7 +20,7 @@
 - - Add changeViewLabel to the super view.   *hint: use view.addSubview(changeViewLabel)
 
 ### To detect and response for value changes in our segmentedControlView, we need to add a target , follow these steps:
-- inside func viewDidLoad, add the following line:  
+- inside func  viewDidLoad , add the following line:  
 
        segmentedControlView.addTarget(self, action: #selector(controlValueChange(_ :)), for: .valueChanged)
  
