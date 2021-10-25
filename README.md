@@ -32,3 +32,6 @@
     
 ### Advanced :
 - Create the applicaiton without a storyboard . Delete the main storyboard.
+
+### The app should look like this :
+![alt text](https://)
