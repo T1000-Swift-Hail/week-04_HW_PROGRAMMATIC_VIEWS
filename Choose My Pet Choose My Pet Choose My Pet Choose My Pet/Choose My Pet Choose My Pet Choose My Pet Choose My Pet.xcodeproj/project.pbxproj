@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290E858B2726B8FC004FB0FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E858A2726B8FC004FB0FC /* AppDelegate.swift */; };
+		290E858D2726B8FC004FB0FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E858C2726B8FC004FB0FC /* SceneDelegate.swift */; };
+		290E858F2726B8FC004FB0FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E858E2726B8FC004FB0FC /* ViewController.swift */; };
+		290E85922726B8FC004FB0FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290E85902726B8FC004FB0FC /* Main.storyboard */; };
+		290E85942726B8FF004FB0FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290E85932726B8FF004FB0FC /* Assets.xcassets */; };
+		290E85972726B8FF004FB0FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290E85952726B8FF004FB0FC /* LaunchScreen.storyboard */; };
+		290E85A22726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E85A12726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetTests.swift */; };
+		290E85AC2726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E85AB2726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetUITests.swift */; };
+		290E85AE2726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E85AD2726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		290E859E2726B8FF004FB0FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290E857F2726B8FC004FB0FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290E85862726B8FC004FB0FC;
+			remoteInfo = "Choose My Pet Choose My Pet Choose My Pet Choose My Pet";
+		};
+		290E85A82726B8FF004FB0FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290E857F2726B8FC004FB0FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290E85862726B8FC004FB0FC;
+			remoteInfo = "Choose My Pet Choose My Pet Choose My Pet Choose My Pet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		290E85872726B8FC004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My Pet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Choose My Pet Choose My Pet Choose My Pet Choose My Pet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		290E858A2726B8FC004FB0FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		290E858C2726B8FC004FB0FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		290E858E2726B8FC004FB0FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		290E85912726B8FC004FB0FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		290E85932726B8FF004FB0FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		290E85962726B8FF004FB0FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		290E85982726B8FF004FB0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290E859D2726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Choose My Pet Choose My Pet Choose My Pet Choose My PetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		290E85A12726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetTests.swift; sourceTree = "<group>"; };
+		290E85A72726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Choose My Pet Choose My Pet Choose My Pet Choose My PetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		290E85AB2726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetUITests.swift; sourceTree = "<group>"; };
+		290E85AD2726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		290E85842726B8FC004FB0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E859A2726B8FF004FB0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E85A42726B8FF004FB0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290E857E2726B8FC004FB0FC = {
+			isa = PBXGroup;
+			children = (
+				290E85892726B8FC004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My Pet */,
+				290E85A02726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetTests */,
+				290E85AA2726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetUITests */,
+				290E85882726B8FC004FB0FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		290E85882726B8FC004FB0FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				290E85872726B8FC004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My Pet.app */,
+				290E859D2726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetTests.xctest */,
+				290E85A72726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		290E85892726B8FC004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My Pet */ = {
+			isa = PBXGroup;
+			children = (
+				290E858A2726B8FC004FB0FC /* AppDelegate.swift */,
+				290E858C2726B8FC004FB0FC /* SceneDelegate.swift */,
+				290E858E2726B8FC004FB0FC /* ViewController.swift */,
+				290E85902726B8FC004FB0FC /* Main.storyboard */,
+				290E85932726B8FF004FB0FC /* Assets.xcassets */,
+				290E85952726B8FF004FB0FC /* LaunchScreen.storyboard */,
+				290E85982726B8FF004FB0FC /* Info.plist */,
+			);
+			path = "Choose My Pet Choose My Pet Choose My Pet Choose My Pet";
+			sourceTree = "<group>";
+		};
+		290E85A02726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetTests */ = {
+			isa = PBXGroup;
+			children = (
+				290E85A12726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetTests.swift */,
+			);
+			path = "Choose My Pet Choose My Pet Choose My Pet Choose My PetTests";
+			sourceTree = "<group>";
+		};
+		290E85AA2726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				290E85AB2726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetUITests.swift */,
+				290E85AD2726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetUITestsLaunchTests.swift */,
+			);
+			path = "Choose My Pet Choose My Pet Choose My Pet Choose My PetUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		290E85862726B8FC004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My Pet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290E85B12726B8FF004FB0FC /* Build configuration list for PBXNativeTarget "Choose My Pet Choose My Pet Choose My Pet Choose My Pet" */;
+			buildPhases = (
+				290E85832726B8FC004FB0FC /* Sources */,
+				290E85842726B8FC004FB0FC /* Frameworks */,
+				290E85852726B8FC004FB0FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Choose My Pet Choose My Pet Choose My Pet Choose My Pet";
+			productName = "Choose My Pet Choose My Pet Choose My Pet Choose My Pet";
+			productReference = 290E85872726B8FC004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My Pet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		290E859C2726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290E85B42726B8FF004FB0FC /* Build configuration list for PBXNativeTarget "Choose My Pet Choose My Pet Choose My Pet Choose My PetTests" */;
+			buildPhases = (
+				290E85992726B8FF004FB0FC /* Sources */,
+				290E859A2726B8FF004FB0FC /* Frameworks */,
+				290E859B2726B8FF004FB0FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290E859F2726B8FF004FB0FC /* PBXTargetDependency */,
+			);
+			name = "Choose My Pet Choose My Pet Choose My Pet Choose My PetTests";
+			productName = "Choose My Pet Choose My Pet Choose My Pet Choose My PetTests";
+			productReference = 290E859D2726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		290E85A62726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290E85B72726B8FF004FB0FC /* Build configuration list for PBXNativeTarget "Choose My Pet Choose My Pet Choose My Pet Choose My PetUITests" */;
+			buildPhases = (
+				290E85A32726B8FF004FB0FC /* Sources */,
+				290E85A42726B8FF004FB0FC /* Frameworks */,
+				290E85A52726B8FF004FB0FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290E85A92726B8FF004FB0FC /* PBXTargetDependency */,
+			);
+			name = "Choose My Pet Choose My Pet Choose My Pet Choose My PetUITests";
+			productName = "Choose My Pet Choose My Pet Choose My Pet Choose My PetUITests";
+			productReference = 290E85A72726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		290E857F2726B8FC004FB0FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					290E85862726B8FC004FB0FC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					290E859C2726B8FF004FB0FC = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 290E85862726B8FC004FB0FC;
+					};
+					290E85A62726B8FF004FB0FC = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 290E85862726B8FC004FB0FC;
+					};
+				};
+			};
+			buildConfigurationList = 290E85822726B8FC004FB0FC /* Build configuration list for PBXProject "Choose My Pet Choose My Pet Choose My Pet Choose My Pet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 290E857E2726B8FC004FB0FC;
+			productRefGroup = 290E85882726B8FC004FB0FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				290E85862726B8FC004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My Pet */,
+				290E859C2726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetTests */,
+				290E85A62726B8FF004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My PetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		290E85852726B8FC004FB0FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E85972726B8FF004FB0FC /* LaunchScreen.storyboard in Resources */,
+				290E85942726B8FF004FB0FC /* Assets.xcassets in Resources */,
+				290E85922726B8FC004FB0FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E859B2726B8FF004FB0FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E85A52726B8FF004FB0FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		290E85832726B8FC004FB0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E858F2726B8FC004FB0FC /* ViewController.swift in Sources */,
+				290E858B2726B8FC004FB0FC /* AppDelegate.swift in Sources */,
+				290E858D2726B8FC004FB0FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E85992726B8FF004FB0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E85A22726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290E85A32726B8FF004FB0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E85AE2726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetUITestsLaunchTests.swift in Sources */,
+				290E85AC2726B8FF004FB0FC /* Choose_My_Pet_Choose_My_Pet_Choose_My_Pet_Choose_My_PetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		290E859F2726B8FF004FB0FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 290E85862726B8FC004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My Pet */;
+			targetProxy = 290E859E2726B8FF004FB0FC /* PBXContainerItemProxy */;
+		};
+		290E85A92726B8FF004FB0FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 290E85862726B8FC004FB0FC /* Choose My Pet Choose My Pet Choose My Pet Choose My Pet */;
+			targetProxy = 290E85A82726B8FF004FB0FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		290E85902726B8FC004FB0FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290E85912726B8FC004FB0FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		290E85952726B8FF004FB0FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290E85962726B8FF004FB0FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		290E85AF2726B8FF004FB0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		290E85B02726B8FF004FB0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		290E85B22726B8FF004FB0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Choose My Pet Choose My Pet Choose My Pet Choose My Pet/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.Choose-My-Pet-Choose-My-Pet-Choose-My-Pet-Choose-My-Pet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		290E85B32726B8FF004FB0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Choose My Pet Choose My Pet Choose My Pet Choose My Pet/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.Choose-My-Pet-Choose-My-Pet-Choose-My-Pet-Choose-My-Pet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		290E85B52726B8FF004FB0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.Choose-My-Pet-Choose-My-Pet-Choose-My-Pet-Choose-My-PetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Choose My Pet Choose My Pet Choose My Pet Choose My Pet.app/Choose My Pet Choose My Pet Choose My Pet Choose My Pet";
+			};
+			name = Debug;
+		};
+		290E85B62726B8FF004FB0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.Choose-My-Pet-Choose-My-Pet-Choose-My-Pet-Choose-My-PetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Choose My Pet Choose My Pet Choose My Pet Choose My Pet.app/Choose My Pet Choose My Pet Choose My Pet Choose My Pet";
+			};
+			name = Release;
+		};
+		290E85B82726B8FF004FB0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.Choose-My-Pet-Choose-My-Pet-Choose-My-Pet-Choose-My-PetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Choose My Pet Choose My Pet Choose My Pet Choose My Pet";
+			};
+			name = Debug;
+		};
+		290E85B92726B8FF004FB0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.Choose-My-Pet-Choose-My-Pet-Choose-My-Pet-Choose-My-PetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Choose My Pet Choose My Pet Choose My Pet Choose My Pet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290E85822726B8FC004FB0FC /* Build configuration list for PBXProject "Choose My Pet Choose My Pet Choose My Pet Choose My Pet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290E85AF2726B8FF004FB0FC /* Debug */,
+				290E85B02726B8FF004FB0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290E85B12726B8FF004FB0FC /* Build configuration list for PBXNativeTarget "Choose My Pet Choose My Pet Choose My Pet Choose My Pet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290E85B22726B8FF004FB0FC /* Debug */,
+				290E85B32726B8FF004FB0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290E85B42726B8FF004FB0FC /* Build configuration list for PBXNativeTarget "Choose My Pet Choose My Pet Choose My Pet Choose My PetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290E85B52726B8FF004FB0FC /* Debug */,
+				290E85B62726B8FF004FB0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290E85B72726B8FF004FB0FC /* Build configuration list for PBXNativeTarget "Choose My Pet Choose My Pet Choose My Pet Choose My PetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290E85B82726B8FF004FB0FC /* Debug */,
+				290E85B92726B8FF004FB0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 290E857F2726B8FC004FB0FC /* Project object */;
+}
