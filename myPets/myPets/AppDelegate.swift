@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ChiseMyPets
+//  myPets
 //
 //  Created by Anas Hamad on 19/03/1443 AH.
 //

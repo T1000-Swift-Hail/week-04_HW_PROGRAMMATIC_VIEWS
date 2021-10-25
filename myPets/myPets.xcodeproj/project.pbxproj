@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D82C3EBF2726C71800D0F892 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C3EBE2726C71800D0F892 /* AppDelegate.swift */; };
-		D82C3EC12726C71800D0F892 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C3EC02726C71800D0F892 /* SceneDelegate.swift */; };
-		D82C3EC32726C71800D0F892 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C3EC22726C71800D0F892 /* ViewController.swift */; };
-		D82C3EC62726C71800D0F892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82C3EC42726C71800D0F892 /* Main.storyboard */; };
-		D82C3EC82726C71B00D0F892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82C3EC72726C71B00D0F892 /* Assets.xcassets */; };
-		D82C3ECB2726C71B00D0F892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82C3EC92726C71B00D0F892 /* LaunchScreen.storyboard */; };
+		D82C3EDF2726CA3400D0F892 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C3EDE2726CA3400D0F892 /* AppDelegate.swift */; };
+		D82C3EE12726CA3400D0F892 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C3EE02726CA3400D0F892 /* SceneDelegate.swift */; };
+		D82C3EE32726CA3400D0F892 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C3EE22726CA3400D0F892 /* ViewController.swift */; };
+		D82C3EE62726CA3400D0F892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82C3EE42726CA3400D0F892 /* Main.storyboard */; };
+		D82C3EE82726CA3700D0F892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82C3EE72726CA3700D0F892 /* Assets.xcassets */; };
+		D82C3EEB2726CA3700D0F892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82C3EE92726CA3700D0F892 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D82C3EBB2726C71800D0F892 /* ChiseMyPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChiseMyPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D82C3EBE2726C71800D0F892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D82C3EC02726C71800D0F892 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D82C3EC22726C71800D0F892 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D82C3EC52726C71800D0F892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D82C3EC72726C71B00D0F892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D82C3ECA2726C71B00D0F892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D82C3ECC2726C71B00D0F892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82C3EDB2726CA3400D0F892 /* myPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82C3EDE2726CA3400D0F892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D82C3EE02726CA3400D0F892 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D82C3EE22726CA3400D0F892 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D82C3EE52726CA3400D0F892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D82C3EE72726CA3700D0F892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D82C3EEA2726CA3700D0F892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D82C3EEC2726CA3700D0F892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D82C3EB82726C71800D0F892 /* Frameworks */ = {
+		D82C3ED82726CA3400D0F892 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D82C3EB22726C71800D0F892 = {
+		D82C3ED22726CA3400D0F892 = {
 			isa = PBXGroup;
 			children = (
-				D82C3EBD2726C71800D0F892 /* ChiseMyPets */,
-				D82C3EBC2726C71800D0F892 /* Products */,
+				D82C3EDD2726CA3400D0F892 /* myPets */,
+				D82C3EDC2726CA3400D0F892 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D82C3EBC2726C71800D0F892 /* Products */ = {
+		D82C3EDC2726CA3400D0F892 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D82C3EBB2726C71800D0F892 /* ChiseMyPets.app */,
+				D82C3EDB2726CA3400D0F892 /* myPets.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D82C3EBD2726C71800D0F892 /* ChiseMyPets */ = {
+		D82C3EDD2726CA3400D0F892 /* myPets */ = {
 			isa = PBXGroup;
 			children = (
-				D82C3EBE2726C71800D0F892 /* AppDelegate.swift */,
-				D82C3EC02726C71800D0F892 /* SceneDelegate.swift */,
-				D82C3EC22726C71800D0F892 /* ViewController.swift */,
-				D82C3EC42726C71800D0F892 /* Main.storyboard */,
-				D82C3EC72726C71B00D0F892 /* Assets.xcassets */,
-				D82C3EC92726C71B00D0F892 /* LaunchScreen.storyboard */,
-				D82C3ECC2726C71B00D0F892 /* Info.plist */,
+				D82C3EDE2726CA3400D0F892 /* AppDelegate.swift */,
+				D82C3EE02726CA3400D0F892 /* SceneDelegate.swift */,
+				D82C3EE22726CA3400D0F892 /* ViewController.swift */,
+				D82C3EE42726CA3400D0F892 /* Main.storyboard */,
+				D82C3EE72726CA3700D0F892 /* Assets.xcassets */,
+				D82C3EE92726CA3700D0F892 /* LaunchScreen.storyboard */,
+				D82C3EEC2726CA3700D0F892 /* Info.plist */,
 			);
-			path = ChiseMyPets;
+			path = myPets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D82C3EBA2726C71800D0F892 /* ChiseMyPets */ = {
+		D82C3EDA2726CA3400D0F892 /* myPets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D82C3ECF2726C71B00D0F892 /* Build configuration list for PBXNativeTarget "ChiseMyPets" */;
+			buildConfigurationList = D82C3EEF2726CA3700D0F892 /* Build configuration list for PBXNativeTarget "myPets" */;
 			buildPhases = (
-				D82C3EB72726C71800D0F892 /* Sources */,
-				D82C3EB82726C71800D0F892 /* Frameworks */,
-				D82C3EB92726C71800D0F892 /* Resources */,
+				D82C3ED72726CA3400D0F892 /* Sources */,
+				D82C3ED82726CA3400D0F892 /* Frameworks */,
+				D82C3ED92726CA3400D0F892 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ChiseMyPets;
-			productName = ChiseMyPets;
-			productReference = D82C3EBB2726C71800D0F892 /* ChiseMyPets.app */;
+			name = myPets;
+			productName = myPets;
+			productReference = D82C3EDB2726CA3400D0F892 /* myPets.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D82C3EB32726C71800D0F892 /* Project object */ = {
+		D82C3ED32726CA3400D0F892 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					D82C3EBA2726C71800D0F892 = {
+					D82C3EDA2726CA3400D0F892 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = D82C3EB62726C71800D0F892 /* Build configuration list for PBXProject "ChiseMyPets" */;
+			buildConfigurationList = D82C3ED62726CA3400D0F892 /* Build configuration list for PBXProject "myPets" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = D82C3EB22726C71800D0F892;
-			productRefGroup = D82C3EBC2726C71800D0F892 /* Products */;
+			mainGroup = D82C3ED22726CA3400D0F892;
+			productRefGroup = D82C3EDC2726CA3400D0F892 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D82C3EBA2726C71800D0F892 /* ChiseMyPets */,
+				D82C3EDA2726CA3400D0F892 /* myPets */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D82C3EB92726C71800D0F892 /* Resources */ = {
+		D82C3ED92726CA3400D0F892 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D82C3ECB2726C71B00D0F892 /* LaunchScreen.storyboard in Resources */,
-				D82C3EC82726C71B00D0F892 /* Assets.xcassets in Resources */,
-				D82C3EC62726C71800D0F892 /* Main.storyboard in Resources */,
+				D82C3EEB2726CA3700D0F892 /* LaunchScreen.storyboard in Resources */,
+				D82C3EE82726CA3700D0F892 /* Assets.xcassets in Resources */,
+				D82C3EE62726CA3400D0F892 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D82C3EB72726C71800D0F892 /* Sources */ = {
+		D82C3ED72726CA3400D0F892 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D82C3EC32726C71800D0F892 /* ViewController.swift in Sources */,
-				D82C3EBF2726C71800D0F892 /* AppDelegate.swift in Sources */,
-				D82C3EC12726C71800D0F892 /* SceneDelegate.swift in Sources */,
+				D82C3EE32726CA3400D0F892 /* ViewController.swift in Sources */,
+				D82C3EDF2726CA3400D0F892 /* AppDelegate.swift in Sources */,
+				D82C3EE12726CA3400D0F892 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D82C3EC42726C71800D0F892 /* Main.storyboard */ = {
+		D82C3EE42726CA3400D0F892 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D82C3EC52726C71800D0F892 /* Base */,
+				D82C3EE52726CA3400D0F892 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D82C3EC92726C71B00D0F892 /* LaunchScreen.storyboard */ = {
+		D82C3EE92726CA3700D0F892 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D82C3ECA2726C71B00D0F892 /* Base */,
+				D82C3EEA2726CA3700D0F892 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D82C3ECD2726C71B00D0F892 /* Debug */ = {
+		D82C3EED2726CA3700D0F892 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		D82C3ECE2726C71B00D0F892 /* Release */ = {
+		D82C3EEE2726CA3700D0F892 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,7 +282,7 @@
 			};
 			name = Release;
 		};
-		D82C3ED02726C71B00D0F892 /* Debug */ = {
+		D82C3EF02726CA3700D0F892 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -290,7 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChiseMyPets/Info.plist;
+				INFOPLIST_FILE = myPets/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -301,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.ChiseMyPets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.myPets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,7 +309,7 @@
 			};
 			name = Debug;
 		};
-		D82C3ED12726C71B00D0F892 /* Release */ = {
+		D82C3EF12726CA3700D0F892 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -317,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChiseMyPets/Info.plist;
+				INFOPLIST_FILE = myPets/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.ChiseMyPets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.myPets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D82C3EB62726C71800D0F892 /* Build configuration list for PBXProject "ChiseMyPets" */ = {
+		D82C3ED62726CA3400D0F892 /* Build configuration list for PBXProject "myPets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D82C3ECD2726C71B00D0F892 /* Debug */,
-				D82C3ECE2726C71B00D0F892 /* Release */,
+				D82C3EED2726CA3700D0F892 /* Debug */,
+				D82C3EEE2726CA3700D0F892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D82C3ECF2726C71B00D0F892 /* Build configuration list for PBXNativeTarget "ChiseMyPets" */ = {
+		D82C3EEF2726CA3700D0F892 /* Build configuration list for PBXNativeTarget "myPets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D82C3ED02726C71B00D0F892 /* Debug */,
-				D82C3ED12726C71B00D0F892 /* Release */,
+				D82C3EF02726CA3700D0F892 /* Debug */,
+				D82C3EF12726CA3700D0F892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D82C3EB32726C71800D0F892 /* Project object */;
+	rootObject = D82C3ED32726CA3400D0F892 /* Project object */;
 }
