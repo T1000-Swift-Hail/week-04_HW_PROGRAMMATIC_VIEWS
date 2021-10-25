@@ -25,7 +25,7 @@
  
 - Inside our ViewController , add the following function :  
  @objc func controlValueChange(_ segControl : UISegmentedControl) {
-        changeViewLabel.text = "Your bet animal is a \(choices[segControl.selectedSegmentIndex])  ! A good choice !"
+        changeViewLabel.text = "Your pet animal is a \(choices[segControl.selectedSegmentIndex])  ! A good choice !"
     }
     
     
@@ -34,4 +34,4 @@
 - Create the applicaiton without a storyboard . Delete the main storyboard.
 
 ### The app should look like this :
-![alt text](https://github.com/T1000-Swift-Hail/week-04_HW_PROGRAMMATIC_VIEWS/blob/main/Simulator%20Screen%20Shot%20-%20iPod%20touch%20(7th%20generation)%20-%202021-10-25%20at%2010.37.08.png?raw=true)
+![alt text](https://)
