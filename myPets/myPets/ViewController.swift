@@ -27,6 +27,8 @@ class ViewController: UIViewController {
         
         segmentedControlView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
         segmentedControlView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor).isActive = true
+        
+        
         segmentedControlView.widthAnchor.constraint(equalTo: view.safeAreaLayoutGuide.widthAnchor,constant: 25).isActive = true
         changeViewLabel = UILabel()
         changeViewLabel.text = "Please Choose your Pet Animal"
@@ -37,7 +39,7 @@ class ViewController: UIViewController {
         changeViewLabel.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(changeViewLabel)
         changeViewLabel.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor).isActive = true
-        changeViewLabel.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor,constant: -280).isActive = true
+        changeViewLabel.bottomAnchor.constraint(equalTo: segmentedControlView.safeAreaLayoutGuide.bottomAnchor,constant:80 ).isActive = true
         changeViewLabel.widthAnchor.constraint(equalTo: view.safeAreaLayoutGuide.widthAnchor,constant: -25).isActive = true
         
         segmentedControlView.addTarget(self, action: #selector(controlValueChange(_ :)), for: .valueChanged)
