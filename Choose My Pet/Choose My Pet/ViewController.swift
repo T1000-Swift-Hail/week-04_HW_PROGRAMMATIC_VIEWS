@@ -21,15 +21,6 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         
-        segmentedControlView = UISegmentedControl(items: choices)
-        segmentedControlView.addTarget(self, action: #selector(controlValueChange(_ :)), for: .valueChanged)
-        segmentedControlView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(segmentedControlView)
-        segmentedControlView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor).isActive= true
-        segmentedControlView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor,constant: 50).isActive= true
-      
-
-        
         
         
      
@@ -41,6 +32,24 @@ class ViewController: UIViewController {
         changeViewLabel.textAlignment = .center
         changeViewLabel.translatesAutoresizingMaskIntoConstraints = false
         
+        
+        
+        segmentedControlView = UISegmentedControl()
+        segmentedControlView.translatesAutoresizingMaskIntoConstraints = false
+        segmentedControlView.insertSegment(withTitle: choices[0], at: 0, animated: true)
+        segmentedControlView.insertSegment(withTitle: choices[1], at: 1, animated: true)
+        segmentedControlView.insertSegment(withTitle: choices[2], at: 2, animated: true)
+        
+        view.addSubview(segmentedControlView)
+        
+        segmentedControlView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor).isActive = true
+        
+        segmentedControlView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor,constant: 30).isActive = true
+        
+
+             
+    
+        
         view.addSubview(changeViewLabel)
         changeViewLabel.widthAnchor.constraint(equalTo: view.widthAnchor,constant: -20).isActive = true
         changeViewLabel.topAnchor.constraint(equalTo: segmentedControlView.bottomAnchor,constant: 40).isActive = true
@@ -48,9 +57,18 @@ class ViewController: UIViewController {
         
     
     }
-
-
-@objc func controlValueChange(_segcontrol : UISegmentedControl) {
-            changeViewLabel.text = "Your pet animal is a \(choices[segControl.selectedSegmentIndex])  ! A good choice !"
-        }
+@objc func segmentTapped() {
+     
+     switch segmentedControlView.selectedSegmentIndex {
+     case 0:
+         changeViewLabel.text = "Your Pet animal is a Baird! a good choice!"
+     case 1:
+         changeViewLabel.text = "your Pet animal is a cat! a good choice!"
+     case 2:
+         changeViewLabel.text = "your Pet animal is a Horse! a good choice!"
+     default:
+         changeViewLabel.text = " "
+         
+     }
+ }
 }
