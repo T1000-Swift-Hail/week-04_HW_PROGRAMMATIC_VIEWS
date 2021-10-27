@@ -55,9 +55,12 @@ class ViewController: UIViewController {
         changeViewLabel.topAnchor.constraint(equalTo: segmentedControlView.bottomAnchor,constant: 40).isActive = true
         changeViewLabel.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor).isActive = true
         
+        segmentedControlView.addTarget(self, action: #selector(segmentTapped(_ :)), for: .valueChanged)
+        
     
     }
-@objc func segmentTapped() {
+    
+    @objc func segmentTapped(_ sender : UISegmentedControl) {
      
      switch segmentedControlView.selectedSegmentIndex {
      case 0:
